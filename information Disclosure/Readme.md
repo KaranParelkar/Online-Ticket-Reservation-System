@@ -20,17 +20,26 @@ The credentials are accessible by simply downloading and opening the SQL file, w
 **Steps to Reproduce**
 
 Set up the project and go to http://localhost/ticket_reservation/ we can see the project is locally deployed 
+
+![POC](images/Info_disclosure_1.png)
  
 **1. Navigate to /database/**
+
+ ![POC](images/Info_disclosure_2.png)
  
 **2. Click on medallion.sql**
-    
+
+   ![POC](images/Info_disclosure_3.png)
 
 **3. Open medallion.sql in VS Code or any text editor.**
+
+   ![POC](images/Info_disclosure_4.png)
     
 **4. Credential information can be observed directly in the SQL dump with password hash which can be easily cracked as shown below.**
  
+ ![POC](images/Info_disclosure_5.png)
  
+ ![POC](images/Info_disclosure_6.png)
 
 
 **Impact:**
