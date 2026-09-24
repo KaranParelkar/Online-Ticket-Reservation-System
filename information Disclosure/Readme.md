@@ -2,6 +2,8 @@
 
 **Severity:** High
 
+**CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N — 7.5 (High)**
+
 **CWE:** CWE-200 – Exposure of Sensitive Information to an Unauthorized Actor
 
 **Researchers:** Karan Parelkar, Abhishek Pisal
